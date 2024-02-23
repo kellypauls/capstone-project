@@ -1,0 +1,298 @@
+{
+   "athletes": [ 
+   {
+        "name": "John Doe",
+        "date": "2/1/24",
+        "sport": "football",
+        "id": 1,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 0,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+        },
+    {
+        "name": "Jenny Finch",
+        "date": "2/1/24",
+        "sport": "softball",
+        "id": 2,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 3,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Tiger Woods",
+        "sport": "golf",
+        "date": "2/1/24",
+        "id": 3,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Josh Peterson",
+        "sport": "lacrosse",
+        "date": "2/1/24",
+        "id": 4,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Sean Jones",
+        "sport": "wrestling",
+        "date": "2/1/24",
+        "id": 5,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Nastia Liuken",
+        "sport": "gymnastics",
+        "date": "2/1/24",
+        "id": 6,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Mia Hamm",
+        "sport": "soccer",
+        "date": "2/1/24",
+        "id": 7,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Rory McIlroy",
+        "sport": "golf",
+        "date": "2/1/24",
+        "id": 8,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Wayne Gretzky",
+        "sport": "hockey",
+        "date": "2/1/24",
+        "id": 9,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Megan Rapinoe",
+        "sport": "soccer",
+        "date": "2/1/24",
+        "id": 10,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Cat Osterman",
+        "sport": "softball",
+        "date": "2/1/24",
+        "id": 11,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Tony Romo",
+        "sport": "football",
+        "date": "2/1/24",
+        "id": 12,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Jackie Robinson",
+        "sport": "baseball",
+        "date": "2/1/24",
+        "id": 13,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Shawn Johnson",
+        "sport": "gymnastics",
+        "date": "2/1/24",
+        "id": 14,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Jane Doe",
+        "sport": "lacrosse",
+        "date": "2/1/24",
+        "id": 15,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "John Cenq",
+        "sport": "wrestling",
+        "date": "2/1/24",
+        "id": 16,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Derek Jeter",
+        "sport": "baseball",
+        "date": "2/1/24",
+        "id": 17,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Patrick Roy",
+        "sport": "hockey",
+        "date": "2/1/24",
+        "id": 18,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Tom Brady",
+        "sport": "football",
+        "date": "2/1/24",
+        "id": 19,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "David Beckham",
+        "sport": "soccer",
+        "date": "2/1/24",
+        "id": 20,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    },
+    {
+        "name": "Simone Biles",
+        "sport": "gymnastics",
+        "date": "2/1/24",
+        "id": 21,
+        "data": {
+        "sleepQuality": "string",
+        "stress": 10,
+        "fatigue": 5,
+        "soreness": 4,
+        "motivation": 8,
+        "practiceDuration": 175
+        }
+    }
+    ]
+}
