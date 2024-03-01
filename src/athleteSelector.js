@@ -1,6 +1,5 @@
-import React, {useState, useEffect} from "react";
-import AthleteDetails from "./AthleteDetails";
-import AthleteList from "./AthleteList";
+import React, {useState} from "react";
+import Results from "./Results";
 
 const sports = [
     "baseball",
@@ -10,18 +9,13 @@ const sports = [
     "wrestling",
     "football",
     "lacrosse",
-    "hockey"
+    "hockey",
 ]
 
 const AthleteSelector = () => {
     const [sport, setSport] = useState("");
-    const [athlete, setAthlete] = useState([])
-    const [athletes] = AthleteList(sport)
+    const [athlete, setAthlete] = useState([]);
 
-    // useEffect(() => {
-    //     requestAthletes();
-    //     console.log(sport)
-    // },[sport])
 
 async function requestAthletes() {
         const res = await fetch(
@@ -29,13 +23,7 @@ async function requestAthletes() {
         );
         const json = await res.json();
         setAthlete(json)
-        console.log(res)
     }
-   
-    // const handleChange = (e) => {
-    //     setSport(e.target.value);
-    //     requestAthletes();
-    //     }
 
     return (
         <div className="selector">
@@ -59,23 +47,37 @@ async function requestAthletes() {
                     ) 
                 })}
             </select>
-            {/* <select 
+            <button>Select Sport</button>
+            </form>
+            {/* <form
+            onSubmit={(e) => {
+                e.preventDefault();
+                navigate(`/athletes/:${athlete.id}`)
+            }
+            }>
+            <select 
                 id="athlete"
                 value={athlete}
                 onChange={(e) => {
                 setAthlete(e.target.value)
+                console.log(athlete)
                 }}>
         <option/>
-        {athletes.map((athlete) => {
+        {athlete.map((athlete) => {
             return (
-                <option key={athlete} value={athlete}>{athlete}</option>
+                <option key={athlete.id} value={athlete.name}>{athlete.name}</option>
             )})
         }
-          </select> */}
-            <h3>you selected: {sport}</h3>
-            <button>Submit</button>
-        </form>
-        <AthleteDetails name={athlete.name} sport={athlete.sport} key={athlete.id}/>
+          </select>
+            {/* <h3>you selected: {athlete.map((ath) => {
+                return (
+                    <h1 id={ath.id}>{ath.name}</h1>
+                )
+            })}</h3> */}
+            {/* <button>Select Athlete</button> */}
+             {/* </form> */}
+       
+        <Results athlete={athlete}/>
         </div>
     )
 }

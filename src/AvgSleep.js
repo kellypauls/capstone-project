@@ -1,7 +1,12 @@
 import React from "react";
 
-function AvgSleep() {
-    
+const AvgSleep = ({motivation, name}) => {
+    return (
+        <div>
+            <p>{name}</p>
+            <p>{motivation}</p>
+        </div>
+    )
 }
 
 export default AvgSleep
